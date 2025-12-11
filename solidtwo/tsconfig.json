@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "nodenext",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "types": ["jest", "node"],
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["src", "test", "src/main.ts"],
+  "exclude": ["dist"]
+}
