@@ -1,6 +1,6 @@
-import { Print, Scan, Fax } from '../index';
+import { IPrint, IScan, IFax } from '../index';
 
-export class ModernPrinter implements Print, Scan, Fax {
+export class ModernPrinter implements IPrint, IScan, IFax {
   print(document: string): void {
     console.log(`Printing document: ${document}`);
   }

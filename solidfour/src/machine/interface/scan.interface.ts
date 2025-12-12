@@ -1,3 +1,3 @@
-export interface Scan {
+export interface IScan {
   scan(document: string): void;
 }

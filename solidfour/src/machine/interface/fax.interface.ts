@@ -1,3 +1,3 @@
-export interface Fax {
+export interface IFax {
   fax(document: string): void;
 }

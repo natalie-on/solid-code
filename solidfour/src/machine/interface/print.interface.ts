@@ -1,3 +1,3 @@
-export interface Print {
+export interface IPrint {
   print(document: string): void;
 }
