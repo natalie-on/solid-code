@@ -1,10 +1,8 @@
 import { Shape } from './shape';
 
 export class Circle extends Shape {
-  radius: number;
-  constructor(radius: number) {
+  constructor(protected readonly radius: number) {
     super();
-    this.radius = radius;
   }
 
   calculateArea(): number {

@@ -1,10 +1,8 @@
 import { Shape } from './shape';
 
 export class Triangle extends Shape {
-  length: number
-  constructor(length: number) {
+  constructor(protected readonly length: number) {
     super();
-    this.length = length;
   }
 
   calculateArea(): number {
