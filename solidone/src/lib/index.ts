@@ -1,3 +1,3 @@
 export * from './book';
 export * from './library';
-export * from './/bookSearch';
+export * from './bookSearch';
