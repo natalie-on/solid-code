@@ -1,7 +1,7 @@
 /*=========== START PRACTICE 1 ===============*/
 import { Shape, Circle, Triangle, Rectangle } from './shape/index';
 
-let shapes: Shape[] = [
+const shapes: Shape[] = [
   new Circle(5),
   new Rectangle(4, 5),
   new Triangle(3)
@@ -23,12 +23,15 @@ import { FulltimeEmployee, InternEmployee, PartimeEmployee } from './employee/in
 
 console.log('\nStart Practice 2!')
 const fullTimeEmployee = new FulltimeEmployee("Alice");
+
 console.log(`${fullTimeEmployee.name}'s salary is ${fullTimeEmployee.calculateSalary()}`);
 
 const partimeEmployee = new PartimeEmployee("Bob");
+
 console.log(`${partimeEmployee.name}'s salary is ${partimeEmployee.calculateSalary()}`);
 
 const internEmployee = new InternEmployee("Cris");
+
 console.log(`${internEmployee.name}'s salary is ${internEmployee.calculateSalary()}`);
 console.log('End Practice 2!')
 /*=========== END PRACTICE 2 ===============*/

@@ -6,4 +6,3 @@ export abstract class Employee {
 
   abstract calculateSalary(): number;
 }
-

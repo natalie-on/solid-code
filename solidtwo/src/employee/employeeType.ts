@@ -1,5 +1,5 @@
 export enum EmployeeType {
-    FullTime,
-    PartTime,
-    Intern
+  FullTime,
+  PartTime,
+  Intern
 }
