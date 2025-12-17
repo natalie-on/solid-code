@@ -1,10 +1,7 @@
 import { INotificationService } from "./notification.interface";
 
 export class SendNotification {
-  private notificationService: INotificationService;
-
-  constructor(service: INotificationService) {
-    this.notificationService = service;
+  constructor(private readonly notificationService: INotificationService) {
   }
 
   sendNotification(message: string): void {
